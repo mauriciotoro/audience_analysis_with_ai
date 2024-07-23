@@ -1,4 +1,4 @@
-# Estimating the Audience of a Website Using Artificial Intelligence
+# Estimating the Audience Segments of a Website Using Artificial Intelligence
 
 In this project, we use artificial-intelligence pre-trained models to gain insights into website audiences, enabling more targeted communication strategies. The objective is to analyze and understand audiences by processing website content through various AI models. By extracting text, summarizing it, detecting emotions, identifying key themes, and predicted audience segments, we gain a view of how different narratives might resonate with different audience segments. This approach may help you tailor messages to meet goals and connect with audiences.
 
