@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+            border-bottom: 2px solid #333;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00FFFF;
+            text-shadow: 0 0 10px #00FFFF;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .content a {
+            text-decoration: none;
+            color: #00FFFF;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        .content a:hover {
+            color: #e0e0e0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #1f1f1f;
+            border-top: 2px solid #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Recent Articles</h2>
+            <a href="In-the-first-part-of-our-blog,-we-talked-about-the.html">In the First Part of Our Blog, We Talked About the...</a>
+            <a href="Choose-products-with-simpler-ingredient-lists-and-.html">Choose Products with Simpler Ingredient Lists and...</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+</body>
+</html>
